@@ -47,6 +47,9 @@
 
 Simple api for register info about videos and their categories.
 
+## :memo: Documetation
+- https://documenter.getpostman.com/view/18248829/UVeFMSJu
+
 ## :sparkles: Features
 
 :heavy_check_mark: Feature Categories:
