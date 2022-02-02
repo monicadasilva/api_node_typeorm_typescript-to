@@ -49,20 +49,20 @@ Simple api for register info about videos and their categories.
 
 ## :sparkles: Features
 
-:heavy_check_mark: Feature Categories:\
+:heavy_check_mark: Feature Categories:
 
 - create new
 - get all
 - get one by id
 - update by id
-- delete by id\
+- delete by id
 
-:heavy_check_mark: Feature Videos:\
+:heavy_check_mark: Feature Videos:
 - create new
 - get all
 - get one by id
 - update by id
-- delete by id\
+- delete by id
 
 ## :rocket: Technologies
 
