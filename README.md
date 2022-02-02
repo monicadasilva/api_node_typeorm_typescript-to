@@ -1,5 +1,5 @@
 <!-- <div align="center" id="top">
-  <img src="./.github/app.gif" alt="Api_node_typeorm_typescript" />
+  <img src="./.github/app.gif" alt="Api_node_typeorm_typescript-to" />
 
 &#xa0;
 
@@ -9,19 +9,19 @@
 <h1 align="center">Api_node_typeorm_typescript</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/monicadasilva/api_node_typeorm_typescript?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/monicadasilva/api_node_typeorm_typescript-to">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/monicadasilva/api_node_typeorm_typescript?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/monicadasilva/api_node_typeorm_typescript-to">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/monicadasilva/api_node_typeorm_typescript?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/monicadasilva/api_node_typeorm_typescript-to">
 
-  <img alt="License" src="https://img.shields.io/github/license/monicadasilva/api_node_typeorm_typescript?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/monicadasilva/api_node_typeorm_typescript-to">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/monicadasilva/api_node_typeorm_typescript?color=56BEB8" /> -->
+  <img alt="Github issues" src="https://img.shields.io/github/issues/monicadasilva/api_node_typeorm_typescript-to" />
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/monicadasilva/api_node_typeorm_typescript?color=56BEB8" /> -->
+  <img alt="Github forks" src="https://img.shields.io/github/forks/monicadasilva/api_node_typeorm_typescript-to" />
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/monicadasilva/api_node_typeorm_typescript?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/monicadasilva/api_node_typeorm_typescript-to" />
 </p>
 
 <!-- Status -->
@@ -55,13 +55,14 @@ Simple api for register info about videos and their categories.
 - get all
 - get one by id
 - update by id
-- delete by id
-  :heavy_check_mark: Feature 2:\
+- delete by id\
+
+:heavy_check_mark: Feature Videos:\
 - create new
 - get all
 - get one by id
 - update by id
-- delete by id
+- delete by id\
 
 ## :rocket: Technologies
 
@@ -79,7 +80,7 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/monicadasilva/api_node_typeorm_typescript
+$ git clone https://github.com/monicadasilva/api_node_typeorm_typescript-to
 
 # Access
 $ cd api_node_typeorm_typescript
@@ -88,7 +89,7 @@ $ cd api_node_typeorm_typescript
 $ yarn
 
 # Run the project
-$ yarn start
+$ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
 ```
