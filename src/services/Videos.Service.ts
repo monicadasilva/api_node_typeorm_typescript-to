@@ -56,13 +56,18 @@ export const ReadOneVideoService = async (id: string) => {
 
 export const UpdateVideoService = async (body: Body, id: string) => {
   const repo = getRepository(Video);
+  const repoCategory = getRepository(Category);
 
-  const { name, description, duration } = body;
+  const { name, description, duration, category } = body;
 
   const currentVideo = await repo.findOne(id);
+  const newCategory = await repoCategory.findOne({ name: category });
 
   if (currentVideo.id !== id) {
     throw new Error("User not found!");
+  }
+  if (newCategory === undefined) {
+    throw new Error("Category not registered!");
   }
   if (currentVideo.name === name) {
     throw new Error("Video name already existes.");
@@ -72,6 +77,7 @@ export const UpdateVideoService = async (body: Body, id: string) => {
     name: name ? name : currentVideo.name,
     description: description ? description : currentVideo.description,
     duration: duration ? duration : currentVideo.duration,
+    category_id: category ? newCategory.id : currentVideo.category_id,
   });
   const updatedVideo = repo.findOne(id);
 
